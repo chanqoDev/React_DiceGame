@@ -1,4 +1,4 @@
-Markup : <details>
+click for start Instructions : <details>
 
 <summary>Getting Started with Create React App </summary>
 
@@ -76,3 +76,46 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     </p>
 
  </details>
+
+# Dice Game in React
+
+### Demonstrating use of 'Presentational Components' and React Component Design
+
+#### Question to ask before init.
+
+- What components will I need?
+- What props will be needed?
+- What states will we need?
+
+- NOTE: Don’t Store Derived Info
+
+#### Dice Component
+
+###### Props
+
+- title: title of the game
+- numDice: num of dice to display
+- maxVal: max value of the die
+
+###### State
+
+- values: array of [val, val, val, ...] for dice
+
+###### Events
+
+- onClick: re-roll dice and regenerate values in state
+- Die Component
+
+###### Props
+
+- val: value for this die
+
+###### State
+
+- none!
+
+###### Events
+
+- none!
+
+###### Setting Default Props
