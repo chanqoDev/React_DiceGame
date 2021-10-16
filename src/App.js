@@ -5,7 +5,7 @@ import Dice from "./Dice";
 function App() {
   return (
     <div className="App">
-      <Dice />
+      <Dice numDice={4} title="first Dice" maxValue={20} />
       <Dice numDice={4} title="Mini Dice" maxValue={20} />
     </div>
   );

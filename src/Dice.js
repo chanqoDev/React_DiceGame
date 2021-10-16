@@ -20,7 +20,7 @@ function Dice(props) {
           <Die value={n} />
         ))}
       </div>
-      <button onClick={roll}>Roll</button>
+      <button onClick={roll}> Roll </button>
     </section>
   );
 }
