@@ -1,5 +1,5 @@
 .Dice {
-    border: solid 2px gray;
+    border: solid 2px dodgerblue;
     padding: 1em 0 2em 0; 
     text-align: center;
     margin: 1em auto auto;
@@ -14,7 +14,7 @@
   }
   
   .Dice button {
-    background-color: darkgoldenrod;
+    background-color: dodgerblue;
     color: white;
     font-size: 140%;
     border-radius: 2px;
