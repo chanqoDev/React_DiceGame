@@ -1,9 +1,13 @@
 import React from "react";
 import "./App.css";
-
+import Dice from "./Dice";
 // simple game with dice
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Dice numDice={4} title="Mini Dice" maxValue={20} />
+    </div>
+  );
 }
 
 export default App;
